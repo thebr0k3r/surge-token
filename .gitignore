@@ -1,0 +1,7 @@
+node_modules
+npm-debug.log
+docs
+dist
+.eslintcache
+.npmrc
+.yarn.lock
