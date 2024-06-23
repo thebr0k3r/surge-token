@@ -1,0 +1,28 @@
+{
+  "name": "surge-token",
+  "version": "1.0.0",
+  "description": "surge.sh token",
+  "homepage": "https://github.com/thebr0k3r/surge-token",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebr0k3r/surge-token"
+  },
+  "author": "br0k3r",
+  "license": "ISC",
+  "type": "commonjs",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "keywords": [
+    "typescript",
+    "surge",
+    "surge.sh"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "test"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "typescript": "^5.5.2"
+  }
+}
