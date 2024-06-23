@@ -13,7 +13,7 @@ export default class SurgeToken {
         return instance
     }
 
-    public getToken() {
+    public getAuthToken() {
         const { password } = this.getCredentials()
         const str = `token:${password}`
         return Buffer.from(str, 'utf8').toString('base64')

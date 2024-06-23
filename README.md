@@ -13,8 +13,8 @@ import SurgeToken from "surge-token";
 
 const surge = await SurgeToken.create()
 
+surge.getAuthToken()
 surge.getCredentials()
-surge.getToken()
 ```
 ##
 - [surge.sh](https://surge.sh/)

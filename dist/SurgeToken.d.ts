@@ -2,7 +2,7 @@ export default class SurgeToken {
     private netrc;
     private machine;
     static create(): Promise<SurgeToken>;
-    getToken(): string;
+    getAuthToken(): string;
     getCredentials(): {
         login: string;
         password: string;

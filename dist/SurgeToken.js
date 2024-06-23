@@ -29,7 +29,7 @@ class SurgeToken {
         await instance.init();
         return instance;
     }
-    getToken() {
+    getAuthToken() {
         const { password } = this.getCredentials();
         const str = `token:${password}`;
         return Buffer.from(str, 'utf8').toString('base64');
